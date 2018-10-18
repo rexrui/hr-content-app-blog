@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="165" passed="165">
+  <reporter-output>
+  </reporter-output>
+  <suite name="repository" duration-ms="3727" started-at="2018-09-28T00:01:40Z" finished-at="2018-09-28T00:01:44Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="3727" started-at="2018-09-28T00:01:40Z" finished-at="2018-09-28T00:01:44Z">
+      <class name="org.b3log.solo.repository.impl.ArchiveDateArticleRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="147" started-at="2018-09-28T00:01:40Z" finished-at="2018-09-28T00:01:40Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="1287" started-at="2018-09-28T00:01:40Z" finished-at="2018-09-28T00:01:41Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="107" started-at="2018-09-28T00:01:41Z" finished-at="2018-09-28T00:01:41Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArchiveDateId()" name="getByArchiveDateId" duration-ms="4" started-at="2018-09-28T00:01:41Z" depends-on-methods="org.b3log.solo.repository.impl.ArchiveDateArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:41Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArticleId()" name="getByArticleId" duration-ms="2" started-at="2018-09-28T00:01:41Z" depends-on-methods="org.b3log.solo.repository.impl.ArchiveDateArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:41Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.PageRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="2" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="91" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="56" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByPermalink()" name="getByPermalink" duration-ms="1" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.PageRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getMaxOrder()" name="getMaxOrder" duration-ms="56" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.PageRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByOrder()" name="getByOrder" duration-ms="1" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.PageRepositoryImplTestCase.add, org.b3log.solo.repository.impl.PageRepositoryImplTestCase.getMaxOrder" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getUnderAndUpper()" name="getUnderAndUpper" duration-ms="59" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.PageRepositoryImplTestCase.add, org.b3log.solo.repository.impl.PageRepositoryImplTestCase.getMaxOrder" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.TagRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="96" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="56" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArticleId()" name="getByArticleId" duration-ms="56" started-at="2018-09-28T00:01:43Z" depends-on-methods="org.b3log.solo.repository.impl.TagRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="getByTitle()" name="getByTitle" duration-ms="2" started-at="2018-09-28T00:01:43Z" depends-on-methods="org.b3log.solo.repository.impl.TagRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="getMostUsedTags()" name="getMostUsedTags" duration-ms="107" started-at="2018-09-28T00:01:43Z" depends-on-methods="org.b3log.solo.repository.impl.TagRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="89" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="66" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByPermalink()" name="getByPermalink" duration-ms="3" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="previousAndNext()" name="previousAndNext" duration-ms="63" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getMostCommentArticles()" name="getMostCommentArticles" duration-ms="61" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.previousAndNext" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getMostViewCountArticles()" name="getMostViewCountArticles" duration-ms="60" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.previousAndNext, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostCommentArticles" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getRandomly()" name="getRandomly" duration-ms="4" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostViewCountArticles, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.previousAndNext, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostCommentArticles" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getRecentArticles()" name="getRecentArticles" duration-ms="4" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostViewCountArticles, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.previousAndNext, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostCommentArticles" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="isPublished()" name="isPublished" duration-ms="4" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.add, org.b3log.solo.repository.impl.ArticleRepositoryImplTestCase.getMostViewCountArticles" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.PluginRepositoryImplTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="72" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="1" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.LinkRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="4" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="56" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="160" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.CommentRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="60" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="59" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.UserRepositoryImplTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="54" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="115" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.ArchiveDateRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:41Z" finished-at="2018-09-28T00:01:41Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="159" started-at="2018-09-28T00:01:41Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="63" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArchiveDate()" name="getByArchiveDate" duration-ms="1" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.ArchiveDateRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.TagArticleRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="67" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="57" started-at="2018-09-28T00:01:42Z" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArticleId()" name="getByArticleId" duration-ms="1" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.TagArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getByTagId()" name="getByTagId" duration-ms="1" started-at="2018-09-28T00:01:42Z" depends-on-methods="org.b3log.solo.repository.impl.TagArticleRepositoryImplTestCase.add" finished-at="2018-09-28T00:01:42Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.OptionRepositoryImplTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="50" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="4" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.repository.impl.CategoryRepositoryImplTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="60" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+        <test-method status="PASS" signature="test()" name="test" duration-ms="167" started-at="2018-09-28T00:01:43Z" finished-at="2018-09-28T00:01:43Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="api" duration-ms="919" started-at="2018-09-28T00:02:00Z" finished-at="2018-09-28T00:02:01Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="919" started-at="2018-09-28T00:02:00Z" finished-at="2018-09-28T00:02:01Z">
+      <class name="org.b3log.solo.processor.MetaWeblogAPITestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:00Z" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="76" started-at="2018-09-28T00:02:00Z" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="505" started-at="2018-09-28T00:02:00Z" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+        <test-method status="PASS" signature="metaWeblog()" name="metaWeblog" duration-ms="338" started-at="2018-09-28T00:02:00Z" depends-on-methods="org.b3log.solo.processor.MetaWeblogAPITestCase.init" finished-at="2018-09-28T00:02:01Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="processor" duration-ms="14794" started-at="2018-09-28T00:01:45Z" finished-at="2018-09-28T00:02:00Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="14794" started-at="2018-09-28T00:01:45Z" finished-at="2018-09-28T00:02:00Z">
+      <class name="org.b3log.solo.processor.CaptchaProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:01:47Z" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="124" started-at="2018-09-28T00:01:47Z" finished-at="2018-09-28T00:01:48Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="550" started-at="2018-09-28T00:01:48Z" finished-at="2018-09-28T00:01:48Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="2213" started-at="2018-09-28T00:01:48Z" depends-on-methods="org.b3log.solo.processor.CaptchaProcessorTestCase.init" finished-at="2018-09-28T00:01:50Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.TagProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="64" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="498" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:59Z">
+        </test-method>
+        <test-method status="PASS" signature="showTagArticles()" name="showTagArticles" duration-ms="74" started-at="2018-09-28T00:01:59Z" depends-on-methods="org.b3log.solo.processor.TagProcessorTestCase.init" finished-at="2018-09-28T00:01:59Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.IndexProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="67" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="501" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="register()" name="register" duration-ms="37" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.IndexProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="showIndex()" name="showIndex" duration-ms="96" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.IndexProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="showKillBrowser()" name="showKillBrowser" duration-ms="39" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.IndexProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.console.CategoryConsoleTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:01:59Z" finished-at="2018-09-28T00:01:59Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="68" started-at="2018-09-28T00:01:59Z" finished-at="2018-09-28T00:01:59Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="516" started-at="2018-09-28T00:01:59Z" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+        <test-method status="PASS" signature="addCategory()" name="addCategory" duration-ms="138" started-at="2018-09-28T00:02:00Z" depends-on-methods="org.b3log.solo.processor.console.CategoryConsoleTestCase.init" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+        <test-method status="PASS" signature="updateCategory()" name="updateCategory" duration-ms="93" started-at="2018-09-28T00:02:00Z" depends-on-methods="org.b3log.solo.processor.console.CategoryConsoleTestCase.addCategory" finished-at="2018-09-28T00:02:00Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.InitProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="61" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="showInit()" name="showInit" duration-ms="27" started-at="2018-09-28T00:01:55Z" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="initSolo()" name="initSolo" duration-ms="524" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.InitProcessorTestCase.showInit" finished-at="2018-09-28T00:01:56Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.LoginProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:56Z" finished-at="2018-09-28T00:01:56Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="37" started-at="2018-09-28T00:01:56Z" finished-at="2018-09-28T00:01:56Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="503" started-at="2018-09-28T00:01:56Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="forgot()" name="forgot" duration-ms="51" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.LoginProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="login()" name="login" duration-ms="26" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.LoginProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="logout()" name="logout" duration-ms="23" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.LoginProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="showForgot()" name="showForgot" duration-ms="18" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.LoginProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="showLogin()" name="showLogin" duration-ms="18" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.LoginProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.ErrorProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="62" started-at="2018-09-28T00:01:53Z" finished-at="2018-09-28T00:01:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:53Z" finished-at="2018-09-28T00:01:53Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="504" started-at="2018-09-28T00:01:53Z" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+        <test-method status="PASS" signature="showErrorPage()" name="showErrorPage" duration-ms="36" started-at="2018-09-28T00:01:54Z" depends-on-methods="org.b3log.solo.processor.ErrorProcessorTestCase.init" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.CommentProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="5" started-at="2018-09-28T00:01:50Z" finished-at="2018-09-28T00:01:50Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="216" started-at="2018-09-28T00:01:50Z" finished-at="2018-09-28T00:01:51Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="677" started-at="2018-09-28T00:01:51Z" finished-at="2018-09-28T00:01:51Z">
+        </test-method>
+        <test-method status="PASS" signature="addArticleComment()" name="addArticleComment" duration-ms="1163" started-at="2018-09-28T00:01:51Z" depends-on-methods="org.b3log.solo.processor.CommentProcessorTestCase.init" finished-at="2018-09-28T00:01:52Z">
+        </test-method>
+        <test-method status="PASS" signature="addPageComment()" name="addPageComment" duration-ms="578" started-at="2018-09-28T00:01:52Z" depends-on-methods="org.b3log.solo.processor.CommentProcessorTestCase.init" finished-at="2018-09-28T00:01:53Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.SitemapProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="42" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="495" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="blogArticlesAtom()" name="blogArticlesAtom" duration-ms="17" started-at="2018-09-28T00:01:58Z" depends-on-methods="org.b3log.solo.processor.SitemapProcessorTestCase.init" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.ArticleProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:01:45Z" finished-at="2018-09-28T00:01:45Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="53" started-at="2018-09-28T00:01:45Z" finished-at="2018-09-28T00:01:45Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="501" started-at="2018-09-28T00:01:45Z" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getArchivesArticlesByPage()" name="getArchivesArticlesByPage" duration-ms="280" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticleContent()" name="getArticleContent" duration-ms="51" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticlesByPage()" name="getArticlesByPage" duration-ms="38" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getAuthorsArticlesByPage()" name="getAuthorsArticlesByPage" duration-ms="35" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getRandomArticles()" name="getRandomArticles" duration-ms="21" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getRelevantArticles()" name="getRelevantArticles" duration-ms="23" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getTagArticlesByPage()" name="getTagArticlesByPage" duration-ms="38" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:46Z">
+        </test-method>
+        <test-method status="PASS" signature="showArchiveArticles()" name="showArchiveArticles" duration-ms="392" started-at="2018-09-28T00:01:46Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="showArticle()" name="showArticle" duration-ms="55" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="showArticlePwdForm()" name="showArticlePwdForm" duration-ms="24" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="showAuthorArticles()" name="showAuthorArticles" duration-ms="58" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.ArticleProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.StatProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="46" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="499" started-at="2018-09-28T00:01:58Z" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+        <test-method status="PASS" signature="showIndex()" name="showIndex" duration-ms="26" started-at="2018-09-28T00:01:58Z" depends-on-methods="org.b3log.solo.processor.StatProcessorTestCase.init" finished-at="2018-09-28T00:01:58Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.FeedProcessorTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:54Z" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="81" started-at="2018-09-28T00:01:54Z" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="496" started-at="2018-09-28T00:01:54Z" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+        <test-method status="PASS" signature="blogArticlesAtom()" name="blogArticlesAtom" duration-ms="295" started-at="2018-09-28T00:01:54Z" depends-on-methods="org.b3log.solo.processor.FeedProcessorTestCase.init" finished-at="2018-09-28T00:01:54Z">
+        </test-method>
+        <test-method status="PASS" signature="blogArticlesRSS()" name="blogArticlesRSS" duration-ms="63" started-at="2018-09-28T00:01:54Z" depends-on-methods="org.b3log.solo.processor.FeedProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="tagArticlesAtom()" name="tagArticlesAtom" duration-ms="33" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.FeedProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+        <test-method status="PASS" signature="tagArticlesRSS()" name="tagArticlesRSS" duration-ms="26" started-at="2018-09-28T00:01:55Z" depends-on-methods="org.b3log.solo.processor.FeedProcessorTestCase.init" finished-at="2018-09-28T00:01:55Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.PageProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="46" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="504" started-at="2018-09-28T00:01:57Z" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+        <test-method status="PASS" signature="showPage()" name="showPage" duration-ms="84" started-at="2018-09-28T00:01:57Z" depends-on-methods="org.b3log.solo.processor.PageProcessorTestCase.init" finished-at="2018-09-28T00:01:57Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.processor.BlogProcessorTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="95" started-at="2018-09-28T00:01:47Z" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:47Z" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="533" started-at="2018-09-28T00:01:47Z" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticlesTags()" name="getArticlesTags" duration-ms="105" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.BlogProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="getBlogInfo()" name="getBlogInfo" duration-ms="23" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.BlogProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+        <test-method status="PASS" signature="getInterestTags()" name="getInterestTags" duration-ms="61" started-at="2018-09-28T00:01:47Z" depends-on-methods="org.b3log.solo.processor.BlogProcessorTestCase.init" finished-at="2018-09-28T00:01:47Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="Surefire suite" duration-ms="1417" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:45Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1417" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:45Z">
+      <class name="org.b3log.solo.util.MarkdownsTestCase">
+        <test-method status="PASS" signature="toHTML()" name="toHTML" duration-ms="724" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:45Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.util.ImagesTestCase">
+        <test-method status="PASS" signature="randImage()" name="randImage" duration-ms="1" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="randImages()" name="randImages" duration-ms="3" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.ArchiveDateQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="37" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="643" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getArchiveDates()" name="getArchiveDates" duration-ms="1" started-at="2018-09-28T00:01:44Z" depends-on-methods="org.b3log.solo.service.ArchiveDateQueryServiceTestCase.init" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getByArchiveDateString()" name="getByArchiveDateString" duration-ms="2" started-at="2018-09-28T00:01:44Z" depends-on-methods="org.b3log.solo.service.ArchiveDateQueryServiceTestCase.init" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.PermalinkQueryServiceTestCase">
+        <test-method status="PASS" signature="matchDefaultArticlePermalinkFormat()" name="matchDefaultArticlePermalinkFormat" duration-ms="2" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+        <test-method status="PASS" signature="matchDefaultPagePermalinkFormat()" name="matchDefaultPagePermalinkFormat" duration-ms="0" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.util.ThumbnailsTestCase">
+        <test-method status="PASS" signature="getGravatarURL()" name="getGravatarURL" duration-ms="1" started-at="2018-09-28T00:01:44Z" finished-at="2018-09-28T00:01:44Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="service" duration-ms="10888" started-at="2018-09-28T00:02:01Z" finished-at="2018-09-28T00:02:12Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="10888" started-at="2018-09-28T00:02:01Z" finished-at="2018-09-28T00:02:12Z">
+      <class name="org.b3log.solo.service.OptionQueryServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="37" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="get()" name="get" duration-ms="1" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.TagQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="92" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="484" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getTagByTitle()" name="getTagByTitle" duration-ms="0" started-at="2018-09-28T00:02:11Z" depends-on-methods="org.b3log.solo.service.TagQueryServiceTestCase.init" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getTags()" name="getTags" duration-ms="1" started-at="2018-09-28T00:02:11Z" depends-on-methods="org.b3log.solo.service.TagQueryServiceTestCase.init" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.LinkMgmtServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="45" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="497" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="addLink()" name="addLink" duration-ms="56" started-at="2018-09-28T00:02:07Z" depends-on-methods="org.b3log.solo.service.LinkMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="changeOrder()" name="changeOrder" duration-ms="58" started-at="2018-09-28T00:02:07Z" depends-on-methods="org.b3log.solo.service.LinkMgmtServiceTestCase.addLink" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="removeLink()" name="removeLink" duration-ms="55" started-at="2018-09-28T00:02:07Z" depends-on-methods="org.b3log.solo.service.LinkMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="updateLink()" name="updateLink" duration-ms="59" started-at="2018-09-28T00:02:07Z" depends-on-methods="org.b3log.solo.service.LinkMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.UserMgmtServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="43" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="addUser()" name="addUser" duration-ms="52" started-at="2018-09-28T00:02:11Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="removeUser()" name="removeUser" duration-ms="1" started-at="2018-09-28T00:02:11Z" depends-on-methods="org.b3log.solo.service.UserMgmtServiceTestCase.addUser" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="updateUser()" name="updateUser" duration-ms="56" started-at="2018-09-28T00:02:11Z" depends-on-methods="org.b3log.solo.service.UserMgmtServiceTestCase.addUser" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="XSSUser()" name="XSSUser" duration-ms="1" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+          <exception class="org.b3log.latke.service.ServiceException">
+            <message>
+              <![CDATA[邮箱格式不正确！]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.b3log.latke.service.ServiceException: 邮箱格式不正确！
+	at org.b3log.solo.service.UserMgmtService.addUser(UserMgmtService.java:281)
+	at org.b3log.solo.service.UserMgmtService_$$_jvstca3_4c._d0addUser(UserMgmtService_$$_jvstca3_4c.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.b3log.latke.ioc.bean.JavassistMethodHandler.invoke(JavassistMethodHandler.java:106)
+	at org.b3log.solo.service.UserMgmtService_$$_jvstca3_4c.addUser(UserMgmtService_$$_jvstca3_4c.java)
+	at org.b3log.solo.service.UserMgmtServiceTestCase.XSSUser(UserMgmtServiceTestCase.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="validUser()" name="validUser" duration-ms="1" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.CommentQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="62" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="492" started-at="2018-09-28T00:02:06Z" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="getComments()" name="getComments" duration-ms="14" started-at="2018-09-28T00:02:06Z" depends-on-methods="org.b3log.solo.service.CommentQueryServiceTestCase.init" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="getCommentsOnId()" name="getCommentsOnId" duration-ms="4" started-at="2018-09-28T00:02:06Z" depends-on-methods="org.b3log.solo.service.CommentQueryServiceTestCase.init" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.CategoryMgmtServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:03Z" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="51" started-at="2018-09-28T00:02:03Z" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="550" started-at="2018-09-28T00:02:04Z" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="addCategory()" name="addCategory" duration-ms="55" started-at="2018-09-28T00:02:04Z" depends-on-methods="org.b3log.solo.service.CategoryMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="changeOrder()" name="changeOrder" duration-ms="55" started-at="2018-09-28T00:02:04Z" depends-on-methods="org.b3log.solo.service.CategoryMgmtServiceTestCase.addCategory" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="removeCategory()" name="removeCategory" duration-ms="52" started-at="2018-09-28T00:02:04Z" depends-on-methods="org.b3log.solo.service.CategoryMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="updateCategory()" name="updateCategory" duration-ms="56" started-at="2018-09-28T00:02:04Z" depends-on-methods="org.b3log.solo.service.CategoryMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.CategoryQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T00:02:04Z" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="45" started-at="2018-09-28T00:02:04Z" finished-at="2018-09-28T00:02:04Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="516" started-at="2018-09-28T00:02:04Z" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+        <test-method status="PASS" signature="addCategory()" name="addCategory" duration-ms="57" started-at="2018-09-28T00:02:05Z" depends-on-methods="org.b3log.solo.service.CategoryQueryServiceTestCase.init" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getCategories()" name="getCategories" duration-ms="1" started-at="2018-09-28T00:02:05Z" depends-on-methods="org.b3log.solo.service.CategoryQueryServiceTestCase.addCategory" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.UserQueryServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="34" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="addUser()" name="addUser" duration-ms="55" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getUser()" name="getUser" duration-ms="0" started-at="2018-09-28T00:02:12Z" depends-on-methods="org.b3log.solo.service.UserQueryServiceTestCase.addUser" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getUserByEmail()" name="getUserByEmail" duration-ms="0" started-at="2018-09-28T00:02:12Z" depends-on-methods="org.b3log.solo.service.UserQueryServiceTestCase.addUser" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getUsers()" name="getUsers" duration-ms="1" started-at="2018-09-28T00:02:12Z" depends-on-methods="org.b3log.solo.service.UserQueryServiceTestCase.addUser" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getLogoutURL()" name="getLogoutURL" duration-ms="0" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getLoginURL()" name="getLoginURL" duration-ms="0" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.ArticleMgmtServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="51" started-at="2018-09-28T00:02:01Z" finished-at="2018-09-28T00:02:01Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:01Z" finished-at="2018-09-28T00:02:01Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="493" started-at="2018-09-28T00:02:01Z" finished-at="2018-09-28T00:02:01Z">
+        </test-method>
+        <test-method status="PASS" signature="addArticle()" name="addArticle" duration-ms="435" started-at="2018-09-28T00:02:01Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:02Z">
+        </test-method>
+        <test-method status="PASS" signature="addArticleWithoutPermalink()" name="addArticleWithoutPermalink" duration-ms="265" started-at="2018-09-28T00:02:02Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:02Z">
+        </test-method>
+        <test-method status="PASS" signature="cancelPublishArticle()" name="cancelPublishArticle" duration-ms="278" started-at="2018-09-28T00:02:02Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:02Z">
+        </test-method>
+        <test-method status="PASS" signature="removeArticle()" name="removeArticle" duration-ms="277" started-at="2018-09-28T00:02:02Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="topArticle()" name="topArticle" duration-ms="5" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.addArticle" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="updateArticle()" name="updateArticle" duration-ms="267" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="updateArticlesRandomValue()" name="updateArticlesRandomValue" duration-ms="6" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleMgmtServiceTestCase.addArticle" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.ArticleQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:03Z" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="50" started-at="2018-09-28T00:02:03Z" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="482" started-at="2018-09-28T00:02:03Z" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticlesByArchiveDate()" name="getArticlesByArchiveDate" duration-ms="2" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticlesByTag()" name="getArticlesByTag" duration-ms="1" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getRecentArticles()" name="getRecentArticles" duration-ms="1" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticle()" name="getArticle" duration-ms="3" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.getRecentArticles" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticleById()" name="getArticleById" duration-ms="5" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.getRecentArticles" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getArticleContent()" name="getArticleContent" duration-ms="8" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.getRecentArticles" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+        <test-method status="PASS" signature="searchKeyword()" name="searchKeyword" duration-ms="5" started-at="2018-09-28T00:02:03Z" depends-on-methods="org.b3log.solo.service.ArticleQueryServiceTestCase.init" finished-at="2018-09-28T00:02:03Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.PageQueryServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="38" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="489" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="addPage()" name="addPage" duration-ms="57" started-at="2018-09-28T00:02:09Z" depends-on-methods="org.b3log.solo.service.PageQueryServiceTestCase.init" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="getPages()" name="getPages" duration-ms="1" started-at="2018-09-28T00:02:09Z" depends-on-methods="org.b3log.solo.service.PageQueryServiceTestCase.addPage" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.PageMgmtServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:08Z" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="36" started-at="2018-09-28T00:02:08Z" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="484" started-at="2018-09-28T00:02:08Z" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="addPage()" name="addPage" duration-ms="57" started-at="2018-09-28T00:02:08Z" depends-on-methods="org.b3log.solo.service.PageMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="changeOrder()" name="changeOrder" duration-ms="58" started-at="2018-09-28T00:02:08Z" depends-on-methods="org.b3log.solo.service.PageMgmtServiceTestCase.addPage" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="removePage()" name="removePage" duration-ms="71" started-at="2018-09-28T00:02:08Z" depends-on-methods="org.b3log.solo.service.PageMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="updatePage()" name="updatePage" duration-ms="60" started-at="2018-09-28T00:02:09Z" depends-on-methods="org.b3log.solo.service.PageMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.OptionMgmtServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="36" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="add()" name="add" duration-ms="1" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="remove()" name="remove" duration-ms="1" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+        <test-method status="PASS" signature="update()" name="update" duration-ms="2" started-at="2018-09-28T00:02:12Z" finished-at="2018-09-28T00:02:12Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.CommentMgmtServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="32" started-at="2018-09-28T00:02:05Z" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:05Z" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="488" started-at="2018-09-28T00:02:05Z" finished-at="2018-09-28T00:02:05Z">
+        </test-method>
+        <test-method status="PASS" signature="addArticleComment()" name="addArticleComment" duration-ms="202" started-at="2018-09-28T00:02:05Z" depends-on-methods="org.b3log.solo.service.CommentMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+        <test-method status="PASS" signature="addPageComment()" name="addPageComment" duration-ms="214" started-at="2018-09-28T00:02:06Z" depends-on-methods="org.b3log.solo.service.CommentMgmtServiceTestCase.addArticleComment" finished-at="2018-09-28T00:02:06Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.TagMgmtServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="45" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="497" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+        <test-method status="PASS" signature="removeUnusedTags()" name="removeUnusedTags" duration-ms="1" started-at="2018-09-28T00:02:11Z" depends-on-methods="org.b3log.solo.service.TagMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:11Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.LinkQueryServiceTestCase">
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:07Z" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="49" started-at="2018-09-28T00:02:07Z" finished-at="2018-09-28T00:02:07Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="483" started-at="2018-09-28T00:02:07Z" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="addLink()" name="addLink" duration-ms="56" started-at="2018-09-28T00:02:08Z" depends-on-methods="org.b3log.solo.service.LinkQueryServiceTestCase.init" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+        <test-method status="PASS" signature="getLinks()" name="getLinks" duration-ms="1" started-at="2018-09-28T00:02:08Z" depends-on-methods="org.b3log.solo.service.LinkQueryServiceTestCase.addLink" finished-at="2018-09-28T00:02:08Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.PreferenceMgmtServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="65" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="490" started-at="2018-09-28T00:02:09Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="updatePreference()" name="updatePreference" duration-ms="8" started-at="2018-09-28T00:02:10Z" depends-on-methods="org.b3log.solo.service.PreferenceMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="updateReplyNotificationTemplate()" name="updateReplyNotificationTemplate" duration-ms="2" started-at="2018-09-28T00:02:10Z" depends-on-methods="org.b3log.solo.service.PreferenceMgmtServiceTestCase.init" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+      </class>
+      <class name="org.b3log.solo.service.PreferenceQueryServiceTestCase">
+        <test-method status="PASS" signature="beforeClass()" name="beforeClass" is-config="true" duration-ms="37" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="afterClass()" name="afterClass" is-config="true" duration-ms="0" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="init()" name="init" duration-ms="490" started-at="2018-09-28T00:02:10Z" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="getPreference()" name="getPreference" duration-ms="2" started-at="2018-09-28T00:02:10Z" depends-on-methods="org.b3log.solo.service.PreferenceQueryServiceTestCase.init" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+        <test-method status="PASS" signature="getReplyNotificationTemplate()" name="getReplyNotificationTemplate" duration-ms="0" started-at="2018-09-28T00:02:10Z" depends-on-methods="org.b3log.solo.service.PreferenceQueryServiceTestCase.init" finished-at="2018-09-28T00:02:10Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

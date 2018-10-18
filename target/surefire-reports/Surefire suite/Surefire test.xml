@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="RexdeMacBook-Pro.local" name="org.b3log.solo.service.ArchiveDateQueryServiceTestCase" tests="9" failures="0" timestamp="27 Sep 2018 16:01:45 GMT" time="1.417" errors="0">
+  <testcase name="init" time="0.643" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="getArchiveDates" time="0.001" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="getByArchiveDateString" time="0.002" classname="org.b3log.solo.service.ArchiveDateQueryServiceTestCase"/>
+  <testcase name="matchDefaultArticlePermalinkFormat" time="0.002" classname="org.b3log.solo.service.PermalinkQueryServiceTestCase"/>
+  <testcase name="matchDefaultPagePermalinkFormat" time="0.0" classname="org.b3log.solo.service.PermalinkQueryServiceTestCase"/>
+  <testcase name="randImage" time="0.001" classname="org.b3log.solo.util.ImagesTestCase"/>
+  <testcase name="randImages" time="0.003" classname="org.b3log.solo.util.ImagesTestCase"/>
+  <testcase name="getGravatarURL" time="0.001" classname="org.b3log.solo.util.ThumbnailsTestCase"/>
+  <testcase name="toHTML" time="0.724" classname="org.b3log.solo.util.MarkdownsTestCase"/>
+</testsuite>

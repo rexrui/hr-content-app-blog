@@ -79,22 +79,12 @@
             <div class="left" style="width: 73%">
                 <div class="developer-body">
                     <ul>
-                        <li><a target="_blank" href="http://88250.b3log.org">D</a></li>
-                        <li><a target="_blank" href="http://vanessa.b3log.org">V</a></li>
-                        <li><a target="_blank" href="mailto:wmainlove@gmail.com">mainlove</a></li>
-                        <li><a target="_blank" href="http://people.apache.org/%7Edongxu">DX</a></li>
-                        <li><a target="_blank" href="http://mizhichashao.com">大叔</a></li>
-                        <li><a target="_blank" href="http://www.jiangzezhou.com">javen.jiang</a></li>
-                    </ul>
-                </div>
-                <div class="contributor-body">
-                    <ul>
-                        <li><a target="_blank" href="http://www.ansen.org">An Shen</a></li>
-                        <li><a target="_blank" href="http://www.bestck.net">Chevo</a></li>
-                        <li><a target="_blank" href="https://github.com/paul-luo">破生</a></li>
-                        <li><a target="_blank" href="http://xxk.b3log.org">宋诗献</a></li>
-                        <li><a target="_blank" href="http://www.mynah.org">Lamb</a></li>
-                        <li><a target="_blank" href="https://github.com/xiaomogui">大姨夫</a></li>
+                        <li><a target="_blank" href="http://iceblue.top">D</a></li>
+                        <li><a target="_blank" href="http://iceblue.top">V</a></li>
+                        <li><a target="_blank" href="rexiceblue@gmail.com">mainlove</a></li>
+                        <li><a target="_blank" href="http://iceblue.top">DX</a></li>
+                        <li><a target="_blank" href="http://mizhichashao.com">IceBlue</a></li>
+                        <li><a target="_blank" href="http://www.jiangzezhou.com">IceBlue</a></li>
                     </ul>
                 </div>
             </div>

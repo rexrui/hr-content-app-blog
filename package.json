@@ -12,15 +12,11 @@
   },
   "license": "GPLv3",
   "private": true,
-  "author": "Daniel <dl882509@gmail.com> (http://88250.b3log.org) & Vanessa <v@b3log.org> (http://vanessa.b3log.org)",
+  "author": "IceBlue <rexiceblue@gmail.com> (http://iceblue.top) ",
   "maintainers": [
     {
-      "name": "Daniel",
-      "email": "d@b3log.org"
-    },
-    {
-      "name": "Vanessa",
-      "email": "v@b3log.org"
+      "name": "IceBlue",
+      "email": "rexiceblue@gmail.com"
     }
   ],
   "devDependencies": {
